@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Final DOM Event Handler</h1>
+    <!-- <h1>Final DOM Event Handler</h1>
     <p id="input-text-display">Default text to be update</p>
     <input id="input-field" type="text" />
     <button id="btn-update">update</button>
@@ -18,8 +18,53 @@
     </button>
     <button onclick="handleOnClick()" id="event-listner">
       Handle Event by Add onclick Function
-    </button>
+    </button> -->
 
+    <h1 id="header-text">this text will get changed</h1>
+    <button onclick="changeValue()">Text Changer Button</button>
+    <button onclick="changeValue2()">Text Changer Button</button>
+
+    <h1>Another part</h1>
+    <p id="default-text">This is an default text.</p>
+    <input id="input-text" type="text" />
+    <button id="update-button">Update!</button>
+
+    <h1>other part</h1>
+    <div id="comment-container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aut
+        libero odit nobis voluptate animi consequuntur iusto, quam laboriosam ad
+        laudantium tenetur dignissimos soluta suscipit distinctio. Dolore esse
+        voluptatum quod tempora aut tempore. Harum voluptatum doloribus animi
+        fugit? Consequuntur ad quos tenetur placeat soluta voluptatum delectus
+        necessitatibus voluptates facilis officiis.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem hic
+        veniam similique quasi, blanditiis ullam numquam placeat et rerum
+        laborum quas nam corporis ipsum vel. Inventore, asperiores rerum? Cum
+        exercitationem, vero ducimus perspiciatis quo itaque harum consequuntur
+        rem veritatis vel assumenda quis blanditiis? Perferendis cum unde alias.
+        Voluptates, ex cupiditate!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+        pariatur quod corrupti cumque porro, ipsam, nam officia numquam earum
+        tempore cupiditate libero error! Perspiciatis, recusandae. Quidem
+        deleniti quisquam ex in animi, accusamus eos perspiciatis et sit
+        repudiandae blanditiis, modi iure? Corporis cumque itaque a repudiandae
+        blanditiis consequuntur iusto quaerat optio!
+      </p>
+    </div>
+    <textarea
+      style="border-radius: 10px"
+      name=""
+      id="comment-box"
+      cols="150"
+      rows="10"
+    ></textarea>
+    <br />
+    <button id="post-btn">POST</button>
     <script src="./update-value-by-click.js"></script>
   </body>
 </html>
